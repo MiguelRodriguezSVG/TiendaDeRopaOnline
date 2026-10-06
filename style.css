@@ -97,3 +97,39 @@ body{
     background-color: transparent;
     color: #ffffff;
 }
+
+.contacto{
+    padding: 130px 20px;
+    text-align: center;
+    background-color: #07111f;
+    color: #ffffff;
+}
+
+.contacto h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.datos-contacto{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.datos-contacto p{
+    font-size: 14px;
+    color: #d4d8de;
+}
+
+footer{
+    padding: 35px;
+    text-align: center;
+    background-color: #050b12;
+    color: #a3a6ae;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
