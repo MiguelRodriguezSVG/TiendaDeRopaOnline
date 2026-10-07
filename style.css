@@ -1,14 +1,21 @@
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f7f4;
-    color: #ffffff;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f7f4;
+    color: #111111;
+    
+}
 .header{
-    height: 90px;
+    min-height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +32,6 @@ body{
 .logo{
     font-size: 20px;
     font-weight: bold;
-
     letter-spacing: 4px;
     color: #111111;
     text-decoration: none;
@@ -67,6 +73,14 @@ body{
 }
 
 .subtitulo{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.inicio-principal h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
     font-weight: 400;
@@ -187,42 +201,85 @@ footer{
     text-transform: uppercase;
 }
 
-@media(max-width: 900px){
-    header{
-        height: auto;
-        flex-direction: column;
-        padding:  20px 5%;
+@media(max-width: 600px){
+    .header{
+        padding: 20px;
     }
 
     .logo{
-        margin-bottom: 20px;
+        font-size: 17px;
     }
 
     .nav-links{
-        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .nav-links a{
+        font-size: 11px;
     }
 
     .inicio-principal{
-        min-height: 600px;
-        padding: 50px 30px;
+        min-height: 550px;
+        padding: 50px 20px;
+    }
+
+    .subtitulo{
+        font-size: 10px;
+        letter-spacing: 1.1;
     }
 
     .inicio-principal h1{
-        font-size: 50px;
+        font-size: 38px;
+        line-height: 1.1;
     }
 
     .descripcion{
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .boton{
+        padding: 14px 24px;
+        font-size: 11px;
+    }
+
+    .catalogo{
+        padding: 80px 20px;
+    }
+
+    .catalogo h2{
+        font-size: 36px;
+        margin-bottom: 45px;
+    }
+
+    .productos{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .producto-imagen{
+        height: 400px;
     }
 
     .contacto{
-        padding: 90px 30px;
+        padding: 70px 20px;
     }
 
     .contacto h2{
-        font-size: 40px;
+        font-size: 34px;
+        margin-bottom: 35px;
     }
     .datos-contacto{
-        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer{
+        padding: 30px 20px;
+        line-height: 1.6;
     }
 }
