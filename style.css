@@ -137,3 +137,43 @@ footer{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@media(max-wodth: 900px){
+    header{
+        height: auto;
+        flex-direction: column;
+        padding:  20px 5%;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .nav-links{
+        gap: 20px;
+    }
+
+    .inicio-principal{
+        min-height: 600px;
+        padding: 50px 30px;
+    }
+
+    .inicio-principal h1{
+        font-size: 50px;
+    }
+
+    .descripcion{
+        font-size: 15px;
+    }
+
+    .contacto{
+        padding: 90px 30px;
+    }
+
+    .contacto h2{
+        font-size: 40px;
+    }
+    .datos-contacto{
+        gap: 25px;
+    }
+}
