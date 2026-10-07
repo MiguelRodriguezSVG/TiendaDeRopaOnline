@@ -102,6 +102,54 @@ body{
     color: #ffffff;
 }
 
+.catalogo{
+    padding: 120px 6%;
+    text-align: center;
+    background-color: #f8f7f4;
+}
+
+.catalogo .subtitulo{
+    color: #707070;
+}
+
+.catalogo h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    color: #000000;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.producto{
+    text-align: left;
+}
+
+.producto-imagen{
+    width: 100%;
+    height: 430px;
+    background-color: #e8e1d5;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+}
+
+.producto:hover .producto-imagen{
+    transform: scale(1.02);
+}
+
+.producto h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
 .contacto{
     padding: 130px 20px;
     text-align: center;
@@ -115,6 +163,7 @@ body{
     font-weight: 400;
     margin-bottom: 50px;
 }
+
 
 .datos-contacto{
     display: flex;
