@@ -138,7 +138,7 @@ footer{
     text-transform: uppercase;
 }
 
-@media(max-wodth: 900px){
+@media(max-width: 900px){
     header{
         height: auto;
         flex-direction: column;
