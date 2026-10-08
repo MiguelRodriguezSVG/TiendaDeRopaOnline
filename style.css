@@ -344,6 +344,14 @@ footer{
         gap: 15px;
     }
 
+    .formulario-contenedor{
+        padding: 30px 20px;
+    }
+
+    .formulario-contenedor h3{
+        font-size: 28px;
+    }
+
     .footer{
         padding: 30px 20px;
         line-height: 1.6;
