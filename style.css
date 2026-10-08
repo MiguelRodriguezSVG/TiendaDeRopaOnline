@@ -165,10 +165,15 @@ body{
 }
 
 .contacto{
-    padding: 130px 20px;
+    padding: 100px 20px;
     text-align: center;
     background-color: #07111f;
     color: #ffffff;
+}
+
+.contacto-contenido{
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .contacto h2{
@@ -193,6 +198,7 @@ body{
 
 .formulario-contenedor{
     padding: 45px;
+    text-align: left;
     background-color: #ffffff;
     color: #111111;
 }
