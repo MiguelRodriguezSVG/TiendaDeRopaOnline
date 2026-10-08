@@ -236,7 +236,7 @@ body{
 }
 
 .campo textarea{
-    resize:horizontal;
+    resize:vertical;
     min-height: 100px;
 }
 
