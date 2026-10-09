@@ -37,6 +37,17 @@ body{
     text-decoration: none;
 }
 
+.boton-modo{
+    margin-top: 14px;
+    background-color: #111c2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font: inherit;
+    font-weight: bold;
+}
+
 .nav-links{
     display: flex;
     gap: 40px;
