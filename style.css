@@ -310,6 +310,10 @@ body.noche .logo, body.noche .nav-links a{
     color: #eae6df;
 } 
 
+body.noche .boton-modo{
+    background-color: #ffffff;
+    color: #000000;
+}
 
 body.noche .catalogo{
     background-color: #0b0f14;
@@ -337,6 +341,11 @@ body.noche .campo input, body.noche .campo select, body.noche .campo textarea{
     background-color: #0b0f14;
     color: #eae6df;
     border-color: #303642;
+}
+
+body.noche .boton-enviar{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 body.noche .footer{
