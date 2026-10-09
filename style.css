@@ -14,6 +14,7 @@ body{
     color: #111111;
     
 }
+
 .header{
     min-height: 90px;
     display: flex;
@@ -276,6 +277,33 @@ footer{
     font-size: 11px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+body.noche{
+    background-color: #0b0f14;
+    color: #eae6df;
+}
+
+body.noche header{
+    background-color: #151d2b;
+    border-bottom: 1px solid #303642;
+}
+
+body.noche .catalogo{
+    background-color: #0b0f14;
+    color: #eae6df;
+}
+
+body.noche .catalogo h2, body.noche .producto h3{
+    color: #eae6df;
+}
+
+body.noche .producto-imagen{
+    background-color: #151d2b;
+}
+
+body.noche .producto p, body.noche .datos-contacto p{
+    color: #9aa4b2;
 }
 
 @media(max-width: 600px){
