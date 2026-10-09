@@ -289,6 +289,10 @@ body.noche header{
     border-bottom: 1px solid #303642;
 }
 
+body.noche .logo, body.noche .nav-links a{
+    color: #eae6df;
+}
+
 body.noche .catalogo{
     background-color: #0b0f14;
     color: #eae6df;
@@ -305,6 +309,23 @@ body.noche .producto-imagen{
 body.noche .producto p, body.noche .datos-contacto p{
     color: #9aa4b2;
 }
+
+body.noche .formulario-contenedor{
+    background-color: #151d2b;
+    color: #eae6df;
+}
+
+body.noche .campo input, body.noche .campo select, body.noche .campo textarea{
+    background-color: #0b0f14;
+    color: #eae6df;
+    border-color: #303642;
+}
+
+body.noche .footer{
+    background-color: #05080c;
+    color: #9aa4b2;
+}
+
 
 @media(max-width: 600px){
     .header{
