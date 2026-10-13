@@ -89,7 +89,7 @@ footer{
     color: #ffffff;
 }
 
-@media (max-width: 600){
+@media (max-width: 600px){
     nav{
         flex-direction: column;
         gap: 10px;
