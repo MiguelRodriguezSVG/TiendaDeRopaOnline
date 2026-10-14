@@ -25,3 +25,30 @@ function alternarMenu(){
 }
 
 botonMenu.addEventListener("click", alternarMenu);
+
+const formulario = document.querySelector("#form-contacto");
+const avisoContacto = document.querySelector("#aviso-contacto");
+
+function revisarPedido(event){
+    event.preventDefault();
+
+    const nombre = document.querySelector("#nombre").value;
+    const correo = document.querySelector("#correo").value;
+
+    if(nombre === ""){
+        avisoContacto.textContent = "Falta colocar el nombre";
+        avisoContacto.classList.add("error");
+        avisoContacto.classList.remove("exito");
+    } else if(correo.includes("@") === false){
+        avisoContacto.textContent = "Correo no valido";
+        avisoContacto.classList.add("error");
+        avisoContacto.classList.remove("exito");
+
+    }else{
+        avisoContacto.textContent = "Mensaje enviado";
+        avisoContacto.classList.add("exito");
+        avisoContacto.classList.remove("error");
+    }
+}
+
+formulario.addEventListener("submit", revisarPedido);
