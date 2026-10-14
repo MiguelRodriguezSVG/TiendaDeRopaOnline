@@ -67,10 +67,10 @@
         </div>
         <div class="formulario-contenedor">
           <h3>Escribenos</h3>
-          <form>
+          <form id="form-contacto" novalidate>
             <div class="campo">
               <label for="nombre">Nombre completo</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required>
             </div>
             <div class="campo">
               <label for="correo">correo electronico</label>
@@ -85,6 +85,7 @@
               <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
             </div>
             <button type="submit" class="boton-enviar">Enviar</button>
+            <p id="aviso-contacto" class="aviso"></p>
           </form>
         </div>
       </div>
