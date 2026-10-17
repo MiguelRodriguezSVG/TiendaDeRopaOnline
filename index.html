@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Punto & Estilo</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Punto & Estilo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header class="header">
-      <a class="logo">Punto & estilo</a>
+      <h1 class="logo">Punto & estilo</h1>
       <button type="button" id="btn-tema" class="boton-modo"> 🌑 Modo noche </button>
       <nav>
         <button type="button" id="btn-menu" class="hamburguesa">☰</button>
@@ -19,11 +20,12 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <section id="inicio" class="inicio-principal">
         <div class="inicio-contenido">
           <p class="subtitulo">NUEVA COLECCION</p>
-          <h1>El punto de encuentro con tu estilo</h1>
+          <h2>El punto de encuentro con tu estilo</h2>
           <p class="descripcion">
             "Ropa casual o urbana para jovenes y adultos que buscan verse bien
             sin complicarse la vida"
@@ -38,7 +40,9 @@
         <h2>Descubre nuestra coleccion</h2>
         <div class="productos">
           <article class="producto">
-            <div class="producto-imagen"></div>
+            <div class="producto-imagen">
+              <img src="imagenes/ImagenRopaHombre.jpg" alt="Imagen Ropa De Hombre" class="card-img">
+            </div>
             <h3>Ropa de hombre</h3>
           </article>
           <article class="producto">
@@ -65,21 +69,25 @@
           <p>Horario: Lunes a sabado, de 9:00 a 19:00</p>
           <p>WhatsApp: 76992109</p>
         </div>
+
         <div class="formulario-contenedor">
           <h3>Escribenos</h3>
           <form id="form-contacto" novalidate>
             <div class="campo">
               <label for="nombre">Nombre completo</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required>
+              <input type="text" id="nombre" name="nombre" placeholder="John Doe" required>
             </div>
+
             <div class="campo">
               <label for="correo">correo electronico</label>
-              <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+              <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
             </div>
+
             <div class="campo">
               <label for="telefono">Telefono(Opcional)</label>
-              <input type="tel" id="telefono" name="telefono" placeholder="70000000">
+              <input type="tel" id="telefono" name="telefono" placeholder="+591 76992809">
             </div>
+
             <div class="campo">
               <label for="mensaje">Mensaje</label>
               <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
@@ -91,6 +99,7 @@
       </div>
       </section>
     </main>
+    
     <footer class="footer">
       <p>&copy; 2026 Punto & Estilo Miguel Eduardo Rodriguez Rocha</p>
     </footer>
