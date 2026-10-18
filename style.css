@@ -174,7 +174,6 @@ body{
 
 .producto-imagen{
     width: 100%;
-    height: 430px;
     background-color: #e8e1d5;
     margin-bottom: 20px;
     transition: transform 0.4s ease;
@@ -184,6 +183,8 @@ body{
 .producto-imagen img{
     width: 100%;
     height: 100%;
+    display: block;
+    
 }
 
 .producto:hover .producto-imagen{
