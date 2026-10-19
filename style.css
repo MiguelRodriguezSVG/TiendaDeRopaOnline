@@ -58,7 +58,10 @@ body{
 
     text-transform: uppercase;
 
-    position: relative;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
 }
 
 #btn-menu {
