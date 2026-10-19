@@ -371,6 +371,12 @@ body.noche .boton-enviar{
     color: #000000;
 }
 
+body.noche .boton-enviar:hover {
+    background-color: #151d2b;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
 body.noche .footer{
     background-color: #05080c;
     color: #9aa4b2;
