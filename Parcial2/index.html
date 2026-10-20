@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Patitas</title>
+</head>
+<body>
+    <header>
+        <h1>Veterinaria Patitas</h1>
+        <p>Cuidamos la salud y el bienestar de tus mascotas con atencion profesional</p>
+    </header>
+    <main>
+        <h2>Reserva tu entorno</h2>
+        <form action="form-turno" novalidate method="POST" action="procesar.php">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo">
+
+            <label for="mascotas">Contanos de tu mascota</label>
+            <textarea name="mascota" id="mascota"></textarea>
+
+            <button type="submit">Reservar mi turno</button>
+
+            <p id="aviso-turno" class="aviso"></p>
+        </form>
+    </main>
+
+    <footer>
+        <p>Parcial 2 - Migeul Eduardo Rodriguez Rocha - 20 de octubre de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
