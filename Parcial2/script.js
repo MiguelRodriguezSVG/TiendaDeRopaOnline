@@ -19,7 +19,7 @@ function validarFormulario(event){
             aviso.classList.remove("exito");
 
         }else{
-            aviso.textContent = "Turno reservar - Miguel Eduardo Rodriguez Rocha";
+            aviso.textContent = "Turno reservado - Miguel Eduardo Rodriguez Rocha";
             aviso.classList.add("exito");
             aviso.classList.remove("error");
         }
