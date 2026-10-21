@@ -7,20 +7,22 @@ function validarFormulario(event){
     
     if(nombre === ""){
             event.preventDefault();
-            avisoContacto.textContent = "Falta colocar el nombre";
-            avisoContacto.classList.add("error");
-            avisoContacto.classList.remove("exito");
+
+            aviso.textContent = "Falta colocar el nombre";
+            aviso.classList.add("error");
+            aviso.classList.remove("exito");
         } else if(correo.includes("@") === false){
             event.preventDefault();
-            avisoContacto.textContent = "Correo no valido";
-            avisoContacto.classList.add("error");
-            avisoContacto.classList.remove("exito");
+
+            aviso.textContent = "Correo no valido";
+            aviso.classList.add("error");
+            aviso.classList.remove("exito");
 
         }else{
-            avisoContacto.textContent = "Turno reservar - Miguel Eduardo Rodriguez Rocha";
-            avisoContacto.classList.add("exito");
-            avisoContacto.classList.remove("error");
+            aviso.textContent = "Turno reservar - Miguel Eduardo Rodriguez Rocha";
+            aviso.classList.add("exito");
+            aviso.classList.remove("error");
         }
 }
 
-
+formulario.addEventListener("submit", validarFormulario);

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria Patitas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -12,14 +13,14 @@
     </header>
     <main>
         <h2>Reserva tu entorno</h2>
-        <form action="form-turno" novalidate method="POST" action="procesar.php">
+        <form id="form-turno" novalidate method="POST" action="procesar.php">
             <label for="nombre">Nombre completo:</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" required>
 
             <label for="correo">Correo</label>
-            <input type="email" name="correo" id="correo">
+            <input type="email" name="correo" id="correo" required>
 
-            <label for="mascotas">Contanos de tu mascota</label>
+            <label for="mascota">Contanos de tu mascota</label>
             <textarea name="mascota" id="mascota"></textarea>
 
             <button type="submit">Reservar mi turno</button>
@@ -29,7 +30,7 @@
     </main>
 
     <footer>
-        <p>Parcial 2 - Migeul Eduardo Rodriguez Rocha - 20 de octubre de 2026</p>
+        <p>Parcial 2 - Miguel Eduardo Rodriguez Rocha - 20 de octubre de 2026</p>
     </footer>
 
     <script src="script.js"></script>
